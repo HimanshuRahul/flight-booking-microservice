@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-project-template",
+  "version": "1.0.0",
+  "description": "A project starter boilerplate for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "author": "Himanshu Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "winston": "^3.13.0"
+  }
+}
