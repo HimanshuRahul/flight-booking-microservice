@@ -1,4 +1,4 @@
-This is a node js project template, made by following some important project management principles. Feel free to change anything.
+This is a Backend for the flight booking microservice that works with Flight booking system using Node JS, made by following some important project management principles. Feel free to change anything.
 
 ## Folder structure is mentioned below:
 
@@ -33,14 +33,22 @@ npm install
 - In the root directory create a `.env` file and add the following env variables
 
   ```
-      PORT=<port number of your choice>
+    PORT=<port number of your choice>
   ```
 
   example:
 
   ```
-      PORT=3000
+    PORT=3000
   ```
+
+- go inside the src folder and execute the following command:
+  ```
+    npx sequelize init
+  ```
+- By executing the above command you will get migrations and seeders folder along with a config.json inside the config folder.
+
+- If you're setting up your development environment, then write the username of your db, password of your db and in dialect mention whatever db you are using for ex: mysql, mariadb etc
 
 - To run the server execute below command:
 
